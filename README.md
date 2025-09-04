@@ -24,6 +24,18 @@ Generates clean reports with pending updates, last scan/install times, and reboo
 - PowerShell 5.1 or higher (included by default).
 - Optional: [`PSWindowsUpdate`](https://www.powershellgallery.com/packages/PSWindowsUpdate) module for extended reporting.
 
+- ### 🛡️ Execution Policy Note
+If you see an error like *“running scripts is disabled on this system”*,
+you may need to adjust PowerShell's execution policy:
+
+`powershell
+# Allow only in the current PowerShell session (recommended):
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+# Or permanently allow local scripts for your user:
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+
 ---
 
 ## 🚀 Usage
