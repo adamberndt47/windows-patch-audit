@@ -1,0 +1,13 @@
+{
+  "ComputerName": "MYPC",
+  "OSVersion": "Microsoft Windows 11 Pro 10.0.22631",
+  "LastScanTime": "2025-09-04T12:14:22Z",
+  "LastInstallTime": "2025-09-03T22:15:05Z",
+  "PendingCount": 3,
+  "PendingKBs": "KB5031234;KB5035678;KB5036789",
+  "SeveritySummary": "Critical:2;Important:1",
+  "RebootRequired": true,
+  "WUServiceStatus": "Running",
+  "WSUS_Server": "",
+  "Errors": null
+}

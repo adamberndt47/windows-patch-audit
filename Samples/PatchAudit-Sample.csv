@@ -1,0 +1,2 @@
+"ComputerName","OSVersion","LastScanTime","LastInstallTime","PendingCount","PendingKBs","SeveritySummary","RebootRequired","WUServiceStatus","WSUS_Server","Errors"
+"MYPC","Microsoft Windows 11 Pro 10.0.22631","2025-09-04T12:14:22Z","2025-09-03T22:15:05Z",3,"KB5031234;KB5035678;KB5036789","Critical:2;Important:1","True","Running","",""
