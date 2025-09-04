@@ -28,7 +28,7 @@ Generates clean reports with pending updates, last scan/install times, and reboo
 If you see an error like *“running scripts is disabled on this system”*,
 you may need to adjust PowerShell's execution policy:
 
-```powershell
+``powershell
 # Allow only in the current PowerShell session (recommended):
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
@@ -36,8 +36,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 
-
-
+```
 ---
 
 ## 🚀 Usage
